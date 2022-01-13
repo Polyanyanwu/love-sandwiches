@@ -1,19 +1,9 @@
 <body>
+    <main>
+        <button onclick="window.location.reload()">Run Program</button>
+        <div id="terminal"></div>
+    </main>
 
-    <div id="content">
-        <noscript>
-            <p>
-                Sorry, JavaScript is not enabled...
-                <br>
-                ...and you need it to view this site.
-            </p>
-            <img src="https://raw.githubusercontent.com/DaveyJH/ci-portfolio-three/main/assets/images/js-sad.webp" alt="Sad JavaScript face">
-        </noscript>
-        <main>
-            <button onclick="window.location.reload()">Run Program</button>
-            <div id="terminal"></div>
-        </main>
-    </div>
     <script>
         var term = new Terminal({
             cols: 80,
