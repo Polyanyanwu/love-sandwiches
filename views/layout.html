@@ -10,10 +10,29 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/xterm/3.14.5/addons/attach/attach.js"></script>
     <title>Python Terminal by Code Institute</title>
     <style>
+        html {
+            margin: 0;
+            height: 100%;
+        }
+
         body {
             font-family: Arial;
-            background: linear-gradient(#333, #333),
-                        url(https://raw.githubusercontent.com/Polyanyanwu/Love-sandwiches/main/assets/bg.jpg) no-repeat center / cover;
+            background: linear-gradient(#333, green),
+                url(https://raw.githubusercontent.com/Polyanyanwu/Love-sandwiches/main/assets/bg.jpg) no-repeat center / cover;
+        }
+
+        #content {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        main {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
         }
 
         /**
